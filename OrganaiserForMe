@@ -10,7 +10,7 @@ kb_client = ReplyKeyboardMarkup(resize_keyboard=True)                           
 kb_client.add(button_1).insert(button_2)                               #Призваиваем переменной название кнопок
 
 
-bot = Bot(token="5698833855:AAFKT1CLDm8C2gl995ZPukStBiVmznlqnCw")   #Объявляем бота и создаем его
+bot = Bot(token="")   #Объявляем бота и создаем его
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start','help'])                      #Создаем функцию на "старт" и "помощь"
